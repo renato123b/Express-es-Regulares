@@ -1,0 +1,1 @@
+Nesse projeto estamos extraindo informações de uma lista de contatos (nome, telefone, email), e gerando uma saída em arquivo CSV
