@@ -18,7 +18,6 @@ def extrair_contatos(texto):
 def gerar_csv(contatos, nome_arquivo):
     cabecalho = ['Nome', 'Telefone', 'Email']
 
-    # Escrever contatos no arquivo CSV
     with open(nome_arquivo, 'w', newline='', encoding='utf-8') as arquivo_csv:
         escritor = csv.writer(arquivo_csv)
         escritor.writerow(cabecalho)
